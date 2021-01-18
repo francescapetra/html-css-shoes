@@ -41,6 +41,13 @@ section{
   margin: auto;
   position: relative;
 }
+div{
+  height: 100%;
+  width: 100%;
+  display: block;
+  bottom: 0;
+  position: relative;
+}
 img{
   max-width: 90%;
   height:auto;
@@ -49,13 +56,6 @@ img{
   left: 50%;
   transform: translate(-50%, -50%);
   padding-bottom: 20%;
-}
-div{
-  height: 100%;
-  width: 100%;
-  display: block;
-  bottom: 0;
-  position: relative;
 }
 p{
   font-weight: 400;
