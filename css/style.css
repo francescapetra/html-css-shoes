@@ -6,3 +6,28 @@
 body{
   font-family: 'Rubik Mono One', sans-serif;
 }
+header{
+  position: relative;
+}
+nav{
+right: 0;
+position: fixed;
+}
+
+nav, ul li{
+  display: inline-block;
+  background-color: lightgreen;
+  height: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  text-align: right;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 50%;
+  background-color: yellow;
+}
