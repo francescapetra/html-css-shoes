@@ -5,20 +5,19 @@
 }
 body{
   font-family: 'Rubik Mono One', sans-serif;
-}
-header{
   position: relative;
 }
-nav{
-right: 0;
-position: fixed;
+header nav{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 10;
 }
-
 nav, ul li{
   display: inline-block;
-  background-color: lightgreen;
   height: 20px;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-right: 20px;
   text-align: right;
 }
@@ -29,5 +28,31 @@ a{
   padding: 15px;
   border: 2px solid black;
   border-radius: 50%;
-  background-color: yellow;
+  background-color: white;
 }
+/* main{
+  height: 60%;
+  width: 100%;
+} */
+section{
+  height: 100vh;
+  width: 100%;
+  padding: 5px;
+  margin-top: 20%;
+  background-color: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img, span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  vertical-align: baseline;
+}
+span{
+  text-align: center;
+  color: yellow;
+  bottom: 0;
