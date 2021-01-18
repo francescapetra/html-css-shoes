@@ -50,7 +50,7 @@ img{
   transform: translate(-50%, -50%);
   padding-bottom: 20%;
 }
-.contenitore{
+div{
   height: 100%;
   width: 100%;
   display: block;
